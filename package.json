@@ -1,0 +1,26 @@
+{
+  "name": "fun-parser",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node node_modules/.bin/mocha tests/* || true",
+    "lint": "eslint . --fix || true"
+  },
+  "author": "Romeeka Gayhart <rrgayhart@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3",
+    "express-cors": "0.0.3",
+    "express-logger": "0.0.3",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "locus": "^2.0.1",
+    "mocha": "^3.4.1"
+  }
+}
